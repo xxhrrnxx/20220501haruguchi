@@ -1,9 +1,10 @@
-body {
-  width: 1300px;
-}
+/* body {
+  width: 100%;
+} */
 
 header {
-  padding: 30px 60px;
+  margin: 30px 60px;
+  width: 90%;
 }
 
 ul {
@@ -25,34 +26,29 @@ li {
 }
 
 .main {
-  margin: 80px 35px;
-  width: 1250px;
-  height: 490px;
+  margin: 80px 20px;
+  width: 95%;
+  height: 400px;
   position: relative;
-}
-
-.main-img {
-  width: 650px;
-  margin-left: auto;
 }
 
 img {
   width: 50%;
   float: right;
-  position: absolute;
   z-index: 10;
 }
 
 .text {
+  width: 75%;
+  height: 40%;
   font-size: 50px;
   position: absolute;
   bottom: 0;
-  z-index: 5;
+  z-index: -1;
 }
 
 .box {
-  width: 900px;
-  height: 150px;
+  height: 100%;
   background-color: #003F8E;
   color: #003F8E;
 }
